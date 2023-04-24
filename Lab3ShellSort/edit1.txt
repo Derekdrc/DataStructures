@@ -1,0 +1,8 @@
+8 15
+Sort Increments
+Shell|Hibbard|Sedgewick|Roots|My2|My3|531|Increment|
+Sample Size(N)
+Operations
+01234567890
+01234567890
+loglog

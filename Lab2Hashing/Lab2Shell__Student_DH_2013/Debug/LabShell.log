@@ -1,0 +1,4 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  LabShell.cpp
+D:\School\Spring 2023\Data Structures\Lab2Hashing\Lab2Shell__Student_DH_2013\LabShell.cpp(71): warning C4715: 'ComputeNearestPrime': not all control paths return a value
+  LabShell.vcxproj -> D:\School\Spring 2023\Data Structures\Lab2Hashing\Lab2Shell__Student_DH_2013\Debug\LabShell.exe

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LabShell", "LabShell.vcxproj", "{7F74DB41-6196-42D1-8DD0-1E1FAB810CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F74DB41-6196-42D1-8DD0-1E1FAB810CFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F74DB41-6196-42D1-8DD0-1E1FAB810CFC}.Debug|Win32.Build.0 = Debug|Win32
+		{7F74DB41-6196-42D1-8DD0-1E1FAB810CFC}.Release|Win32.ActiveCfg = Release|Win32
+		{7F74DB41-6196-42D1-8DD0-1E1FAB810CFC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
