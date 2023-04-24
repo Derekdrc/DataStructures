@@ -1,12 +1,9 @@
 ﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  stdafx.cpp
-cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
   MyLab03Alternate.cpp
-C:\Users\david\Downloads\Lab03ForOnlineClass\MyLab03Alternate.cpp(105,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\david\Downloads\Lab03ForOnlineClass\MyLab03Alternate.cpp(101,18): warning C4101: 'temp': unreferenced local variable
-C:\Users\david\Downloads\Lab03ForOnlineClass\MyLab03Alternate.cpp(145,18): warning C4101: 'gap': unreferenced local variable
-C:\Users\david\Downloads\Lab03ForOnlineClass\MyLab03Alternate.cpp(145,12): warning C4101: 'temp': unreferenced local variable
-  lab32.cpp
-  Generating Code...
-lab32.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  lab32.vcxproj -> C:\Users\david\Downloads\Lab03ForOnlineClass\Debug\lab32.exe
+D:\School\Github\DataStructures\Lab3ShellSort\MyLab03Alternate.cpp(105,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\School\Github\DataStructures\Lab3ShellSort\MyLab03Alternate.cpp(101,18): warning C4101: 'temp': unreferenced local variable
+D:\School\Github\DataStructures\Lab3ShellSort\MyLab03Alternate.cpp(145,18): warning C4101: 'gap': unreferenced local variable
+D:\School\Github\DataStructures\Lab3ShellSort\MyLab03Alternate.cpp(145,12): warning C4101: 'temp': unreferenced local variable
+D:\School\Github\DataStructures\Lab3ShellSort\MyLab03Alternate.cpp(249,16): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+D:\School\Github\DataStructures\Lab3ShellSort\MyLab03Alternate.cpp(249,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  lab32.vcxproj -> D:\School\Github\DataStructures\Lab3ShellSort\Debug\lab32.exe

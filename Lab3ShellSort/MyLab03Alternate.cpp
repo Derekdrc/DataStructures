@@ -218,15 +218,18 @@ int shellsort_Rootsincrements(int data[], int len)
 int shellsort_yyyincrements(int data[], int len)
 {  
 	int* a;
-	double x = len;
-	x = log10(x) / log10(2.);
-	int ix = (int)x;
-	// create the increments for Hibbard
+	int ix = 5;
+	int j = 2;// start at the square root (it is the largest increment)
 	a = new int[ix + 1];
-	for (int k = ix; k >= 1; k--)
-		a[k] = (int)pow(2., (double)k) - 1; // replace this with the algorithm to generate your increment set
-	a[0] = 1;
-	int counter = insertion_style_sort(data, len, a, ix);
+	a[0] = 1; // last increment must always be 1 else you won't get a complete sort
+	// increments must be in descending order (largest to smallest, with 1 being the last increment)
+	//Similar to Rootsincrements provided, however doubles increment instead
+	for (int k = ix; k >= 1; k--) {
+		a[k] = (int)pow((double)len, (double)1 / (double)(j));
+		j = j * 2;
+	}
+
+	int counter = insertion_style_sort(data, len, a, ix);  // leave this code in place
 	delete[] a;
 	return counter;
 }
@@ -243,7 +246,7 @@ int shellsort_zzzincrements(int data[], int len)
 	// create the increments for Hibbard
 	a = new int[ix + 1];
 	for (int k = ix; k >= 1; k--)
-		a[k] = (int)pow(2., (double)k) - 1; // replace this with the algorithm to generate your increment set
+		a[k] =ceil((1/5)(9*pow((9/4), (x-1))-4)); // tokudas sequence
 	a[0] = 1;
 	int counter = insertion_style_sort(data, len, a, ix);
 	delete[] a;
